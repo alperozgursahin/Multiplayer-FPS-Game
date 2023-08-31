@@ -115,10 +115,27 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:MIRROR
+-define:MIRROR_57_0_OR_NEWER
+-define:MIRROR_58_0_OR_NEWER
+-define:MIRROR_65_0_OR_NEWER
+-define:MIRROR_66_0_OR_NEWER
+-define:MIRROR_2022_9_OR_NEWER
+-define:MIRROR_2022_10_OR_NEWER
+-define:MIRROR_70_0_OR_NEWER
+-define:MIRROR_71_0_OR_NEWER
+-define:MIRROR_73_OR_NEWER
+-define:MIRROR_78_OR_NEWER
+-define:MIRROR_79_OR_NEWER
+-define:MIRROR_81_OR_NEWER
 -define:TIMELINE_FRAMEACCURATE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll"
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll"
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll"
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
