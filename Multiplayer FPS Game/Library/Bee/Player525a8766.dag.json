@@ -360,8 +360,8 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
         "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Mirror.dll",
+        "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
         "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Mirror.Transports.dll",
         "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Mirror.Components.dll",
@@ -1288,18 +1288,6 @@
       "DebugActionIndex": 81
     },
     {
-      "Annotation": "CopyFiles Builds/Build02/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Core.dll",
-      "DisplayName": "Copying Unity.VisualScripting.Core.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
-      ],
-      "Outputs": [
-        "Builds/Build02/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Core.dll"
-      ],
-      "DebugActionIndex": 82
-    },
-    {
       "Annotation": "CopyFiles Builds/Build02/Multiplayer FPS Game_Data/Managed/Mirror.dll",
       "DisplayName": "Copying Mirror.dll",
       "ActionType": "CopyFiles",
@@ -1308,6 +1296,18 @@
       ],
       "Outputs": [
         "Builds/Build02/Multiplayer FPS Game_Data/Managed/Mirror.dll"
+      ],
+      "DebugActionIndex": 82
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build02/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Core.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+      ],
+      "Outputs": [
+        "Builds/Build02/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
       "DebugActionIndex": 83
     },

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4003324659598623371}
   - component: {fileID: -3690964305975500218}
   - component: {fileID: -7461043671437702416}
+  - component: {fileID: -8931490188325092652}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -147,10 +148,44 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   componentsToDisable:
-  - {fileID: 3231560172158145558}
   - {fileID: 4003324659598623371}
+  - {fileID: 3231560172158145558}
   - {fileID: 8205092870049279802}
   - {fileID: 8393159305147313900}
+--- !u!114 &-8931490188325092652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3380105368170050978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a553cb17010b2403e8523b558bffbc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 1
+  syncMode: 0
+  syncInterval: 0
+  target: {fileID: 1425638569390936669}
+  clientAuthority: 0
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 1
+  coordinateSpace: 1
+  sendIntervalMultiplier: 1
+  timelineOffset: 0
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  onlySyncOnChange: 1
+  bufferResetMultiplier: 3
+  positionSensitivity: 0.01
+  rotationSensitivity: 0.01
+  scaleSensitivity: 0.01
 --- !u!1 &3856765705601906568
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,6 +441,7 @@ GameObject:
   - component: {fileID: 4534233982001704132}
   - component: {fileID: 8205092870049279802}
   - component: {fileID: 8393159305147313900}
+  - component: {fileID: 10638379060342273}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -488,6 +524,40 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6175760762933617397}
   m_Enabled: 1
+--- !u!114 &10638379060342273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6175760762933617397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a553cb17010b2403e8523b558bffbc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 1
+  syncMode: 0
+  syncInterval: 0
+  target: {fileID: 4534233982001704132}
+  clientAuthority: 0
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 1
+  coordinateSpace: 1
+  sendIntervalMultiplier: 1
+  timelineOffset: 0
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  onlySyncOnChange: 1
+  bufferResetMultiplier: 3
+  positionSensitivity: 0.01
+  rotationSensitivity: 0.01
+  scaleSensitivity: 0.01
 --- !u!1 &7084263586432291158
 GameObject:
   m_ObjectHideFlags: 0

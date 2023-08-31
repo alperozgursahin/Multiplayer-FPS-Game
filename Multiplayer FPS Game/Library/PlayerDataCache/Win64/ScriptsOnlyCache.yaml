@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - PlayerController
     - PlayerMotor
     - PlayerSetup
+    Mirror.Components.dll:
+    - Mirror.NetworkTransformUnreliable
     Mirror.Transports.dll:
     - kcp2k.KcpTransport
     Mirror.dll:
@@ -56,21 +58,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4228}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 3510}
     - Class: 114
-      Script: {instanceID: 23736}
+      Script: {instanceID: 4564}
     - Class: 114
-      Script: {instanceID: 24012}
+      Script: {instanceID: 4568}
     - Class: 114
-      Script: {instanceID: 24578}
+      Script: {instanceID: 4690}
     - Class: 114
-      Script: {instanceID: 24642}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 24662}
+      Script: {instanceID: 5612}
     - Class: 114
-      Script: {instanceID: 28778}
+      Script: {instanceID: 6156}
+    - Class: 114
+      Script: {instanceID: 7644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -82,16 +86,52 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 73c53cb9818cc03b749c583705c5434f
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: MatchGUI
+  - hash:
+      serializedVersion: 2
       Hash: 16c8cbd24a32f9d6625615e0e9098073
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 8a9d84707d0e9f000178bfc5b76186fd
+    assemblyName: Mirror.Components
+    namespaceName: Mirror.Discovery
+    className: NetworkDiscoveryHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 14830464a04bad855c5013f088f4a0d5
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.TanksCoop
+    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -106,10 +146,22 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
       Hash: 94f8303fca6ba25383fc62595e324b7b
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 242f93742e308a9b29919bf8fd7005fd
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: AdditiveLevelsNetworkManager
   - hash:
       serializedVersion: 2
       Hash: 1ed2c6278a809fcb97c4b0e845bbecc5
@@ -118,10 +170,28 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: e3ea2b4d78656ac50f648ee19557219e
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkRigidbodyUnreliable2D
+  - hash:
+      serializedVersion: 2
       Hash: ea1569413d805748b7cef2dcb4622c85
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: c69f1ad8812aaf23627e5f2c1ccbfe54
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.RigidbodyBenchmark
+    className: RigidbodyBenchmarkNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7bf9ec7ffcef77dd034dd2103e3fd2d5
+    assemblyName: Mirror.Transports
+    namespaceName: Mirror
+    className: LatencySimulation
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -130,10 +200,40 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 0837e28de3e6ad8243a15527da09fbce
+    assemblyName: Mirror.Transports
+    namespaceName: Mirror
+    className: TelepathyTransport
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 574c5ec5a29720e2fd83ca343945155d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: RandomColor
+  - hash:
+      serializedVersion: 2
+      Hash: 5dc4992ccb4f10b65b4d424e9c0a52c1
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkStatistics
+  - hash:
+      serializedVersion: 2
+      Hash: e5a7e656cdd39f13f860d7aee06d2c75
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: MultiSceneNetManager
+  - hash:
+      serializedVersion: 2
+      Hash: de676bbd2f4a8c7dfff229e6bbe113d1
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.LagCompensationDemo
+    className: ServerCube
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -176,6 +276,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 6cc1aca32fab13c4e42a2fb8aa51b378
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Benchmark
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: LookAtMainCamera
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -232,6 +344,12 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
+      Hash: 09074999aeface3ff2e2a076aab7d12b
+    assemblyName: Mirror.Components
+    namespaceName: Mirror.Experimental
+    className: NetworkLerpRigidbody
+  - hash:
+      serializedVersion: 2
       Hash: 6498fc76484598db46c5c1a11bab42fa
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -274,10 +392,28 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 86d75f506a1c31777790b23cfcf70ef7
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.TanksCoop
+    className: TankController
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf2f8a12f47c75c9009280d3f75985ab
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: AdditiveNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: e969578f48f0e1558eb419ad48ce1b41
+    assemblyName: Mirror.Transports
+    namespaceName: Mirror
+    className: MultiplexTransport
   - hash:
       serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f
@@ -286,10 +422,22 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
+      Hash: 12f7770b00fdf9605899a0f4ab5e88aa
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.BenchmarkIdle
+    className: Npc
+  - hash:
+      serializedVersion: 2
+      Hash: 1a947b446458d24ee2a0412df4efe285
+    assemblyName: Mirror.Components
+    namespaceName: Mirror.Discovery
+    className: NetworkDiscovery
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Tanks
+    className: FaceCamera
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -302,6 +450,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a0afebd540f47ef586c4f6c224b84df5
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: PlayerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
+    assemblyName: Mirror
+    namespaceName: Mirror
+    className: NetworkManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -322,6 +482,12 @@ ScriptsOnlyBuild:
     className: UnityOnTransformParentChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c6e6a3c06e73350da744db9db9b1fd1e
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.SyncDir
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: 0249933f35dcc970b31eaae0159aebf9
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -332,6 +498,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 652fa2a3a15e44c3b4361057c0cfc732
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.LagCompensationDemo
+    className: ClientCube
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -346,6 +518,12 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e3ea2b4d78656ac50f648ee19557219e
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkTransformUnreliable
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -356,6 +534,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: bec57f26c4d645408cb6eb54d0763152
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Pong
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 574c5ec5a29720e2fd83ca343945155d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: RandomColor
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -382,10 +572,28 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: SceneInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: cc0e2eb0e7289b6e34390f604f416990
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 51b6a1e9c8ccbe5171e4a8bc5e62bcaa
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Common
+    className: FPS
   - hash:
       serializedVersion: 2
       Hash: 0286ed84936a6e3c4dba049ae21a7b1c
@@ -400,10 +608,34 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 574c5ec5a29720e2fd83ca343945155d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: RandomColor
+  - hash:
+      serializedVersion: 2
+      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
       Hash: b18151310f999106767addd7177d1a99
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 88500e4da050a9f6f3fff24244b3caf7
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Benchmark
+    className: MonsterMovement
+  - hash:
+      serializedVersion: 2
+      Hash: d3fb92a9d882afdea7488ecfd9d31427
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: GUIConsole
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -416,6 +648,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 3d7febf30df7d1828378d34e2e46f661
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: Portal
   - hash:
       serializedVersion: 2
       Hash: 13c320424e15e88a0527d7477a4188bb
@@ -454,6 +692,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: e6186cd60f658e64fb1bcb33efdb08e9
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.SnapshotInterpolationDemo
+    className: ServerCube
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -466,16 +710,58 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 4cd3db69fa6e3492c608fd31bfa23345
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: MatchController
+  - hash:
+      serializedVersion: 2
+      Hash: 3945c861b572f6e9540b74b1c8bfe17c
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkPingDisplay
+  - hash:
+      serializedVersion: 2
       Hash: 6298a10412e94e11ad85ac6148c9dda1
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 9665227150a6764d8eb87d0b25ab1dc7
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.CCU
+    className: CCUNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 231a9ca3f7c81ade6a60d81cc33be7ea
+    assemblyName: Mirror.Components
+    namespaceName: Mirror.Experimental
+    className: NetworkRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: f373fb48a79d8e0bbfc5b442f3e8d766
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: FadeInOut
+  - hash:
+      serializedVersion: 2
+      Hash: d336d783425aae33bbfb3da784e94b7c
+    assemblyName: Mirror
+    namespaceName: Mirror
+    className: NetworkIdentity
+  - hash:
+      serializedVersion: 2
       Hash: 0d3d981cc087e777bf3fa0d759b22533
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMotor
+  - hash:
+      serializedVersion: 2
+      Hash: 33c4b3bb9f8a7c570f32dcd58ed55f77
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: RemoteStatistics
   - hash:
       serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
@@ -490,10 +776,52 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 90d1e90b9c70a5d92fcf1a53c8d8c331
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkRoomManager
+  - hash:
+      serializedVersion: 2
+      Hash: 728fce6cb4678ae45601f8cfe5fc1383
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: HistoryCollider
+  - hash:
+      serializedVersion: 2
+      Hash: b43143bf378e8ba0e5e013c13636eddd
+    assemblyName: Mirror
+    namespaceName: Mirror
+    className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: f0abda00702ec4d4e7e066b93185e9ce
+    assemblyName: Mirror.Components
+    namespaceName: Mirror.Experimental
+    className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: c952b1f0d5e62e27da8627b17555a910
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkAnimator
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fc69c45d623995f4f745d93664a1f76c
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Chat
+    className: ChatUI
+  - hash:
+      serializedVersion: 2
+      Hash: a3f5d60a2b7f432be13336aa8aa0f6c1
+    assemblyName: Mirror.Authenticators
+    namespaceName: Mirror.Authenticators
+    className: BasicAuthenticator
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -520,16 +848,34 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 574c5ec5a29720e2fd83ca343945155d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: RandomColor
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnEndDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: fd0b671878695ad150b80c1ab1f4a482
+    assemblyName: Mirror.Transports
+    namespaceName: kcp2k
+    className: KcpTransport
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc576deb25ec0a2dd0ca78daf1868d8
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkTeam
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -544,6 +890,18 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: bec57f26c4d645408cb6eb54d0763152
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Pong
+    className: Ball
+  - hash:
+      serializedVersion: 2
+      Hash: e3ea2b4d78656ac50f648ee19557219e
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkTransformChild
+  - hash:
+      serializedVersion: 2
       Hash: 6237f92becd6162fa105361ab9ce2a00
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -556,16 +914,46 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: a0dad473e105cd3db7f8276de8037aff
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Basic
+    className: PlayerUI
+  - hash:
+      serializedVersion: 2
       Hash: fa7c62595553866a25a1f687b1914fd2
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 9fb6d3412d6c58086796e5250fe2005d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Tanks
+    className: Projectile
+  - hash:
+      serializedVersion: 2
+      Hash: 608baadfc08f190ac5a45982f826f37b
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkLobbyPlayer
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e3ea2b4d78656ac50f648ee19557219e
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkRigidbodyUnreliable
+  - hash:
+      serializedVersion: 2
+      Hash: 16c5d8ca9c6145352a10c873a7c9e2de
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: PlayerScore
   - hash:
       serializedVersion: 2
       Hash: 892b5093967522535ba980d28ce42084
@@ -598,6 +986,18 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: c1942b6957d8cb621e6a25768c192a9c
+    assemblyName: Mirror.Authenticators
+    namespaceName: Mirror.Authenticators
+    className: TimeoutAuthenticator
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -616,16 +1016,52 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: ad142c40a053e0020e56b750253902aa
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Chat
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Text
+      Hash: 9ff04a94178434a208d86305e6314f56
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerSetup
+  - hash:
+      serializedVersion: 2
+      Hash: 3ed613102f397f77f628ea52097ee0d8
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.CCU
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: e28130a3859395d868f69fe426be02fe
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.RigidbodyBenchmark
+    className: AutoForce
+  - hash:
+      serializedVersion: 2
+      Hash: 1f51b961d1effef2b284f5d2cd0b6a30
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: ShootingTankBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 88500e4da050a9f6f3fff24244b3caf7
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.CCU
+    className: Monster
+  - hash:
+      serializedVersion: 2
+      Hash: 9665227150a6764d8eb87d0b25ab1dc7
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.BenchmarkIdle
+    className: BenchmarkIdleNetworkManager
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -634,10 +1070,34 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
+      Hash: bbd3ce290ed3ab81f25f5de11464498e
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: RoomGUI
+  - hash:
+      serializedVersion: 2
+      Hash: c69f1ad8812aaf23627e5f2c1ccbfe54
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Benchmark
+    className: BenchmarkNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: cca2b5d3d368e7391a2baed1177f7fb4
+    assemblyName: Mirror.Transports
+    namespaceName: Mirror.SimpleWeb
+    className: SimpleWebTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 54dbf1354d684373dbb6cc66ececf7d3
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.BenchmarkIdle
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 9fb6d3412d6c58086796e5250fe2005d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.TanksCoop
+    className: Projectile
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -652,10 +1112,52 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: cc0e2eb0e7289b6e34390f604f416990
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
       Hash: 46ffbaea01259c5c7ee677afefd93ea8
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: cc0e2eb0e7289b6e34390f604f416990
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkMatch
+  - hash:
+      serializedVersion: 2
+      Hash: 496d4521be261724ff725dced5f0971f
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: NetworkRoomManagerExt
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror
+    namespaceName: Mirror
+    className: NetworkStartPosition
+  - hash:
+      serializedVersion: 2
+      Hash: bd8b19d2dd203c0367afb3b2c0533501
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: MatchNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: TeamInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: 90d1e90b9c70a5d92fcf1a53c8d8c331
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkLobbyManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -664,10 +1166,34 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5857aaa413ec4675d570ef7c3373f36f
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: CanvasController
+  - hash:
+      serializedVersion: 2
+      Hash: 100c84b54bbb7d10ad6dabb8cf7b95ec
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.SnapshotInterpolationDemo
+    className: ClientCube
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 783c1c5ed36f81d82dd79d19bed9a079
+    assemblyName: Mirror.Authenticators
+    namespaceName: Mirror.Authenticators
+    className: DeviceAuthenticator
+  - hash:
+      serializedVersion: 2
+      Hash: d33e70ff715924df9accda97d1ab9554
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Pong
+    className: NetworkManagerPong
   - hash:
       serializedVersion: 2
       Hash: 751d867553f413cde86fe5db0b02780d
@@ -688,10 +1214,22 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: 3a5b6a86cbad13a29a6c896fa8fe6785
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: CellGUI
+  - hash:
+      serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: MatchInterestManagement
   - hash:
       serializedVersion: 2
       Hash: a03cf6f60c605d858f83449f4b4fc400
@@ -700,10 +1238,34 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: cc0e2eb0e7289b6e34390f604f416990
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 369a85b75f2a31e87c6a866540001e00
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: DistanceInterestManagementCustomRange
+  - hash:
+      serializedVersion: 2
       Hash: f4f39b64f410b0cd98b49df4bad0eb7e
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: c8917013771b47181225661e21bca685
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkRigidbodyReliable2D
+  - hash:
+      serializedVersion: 2
+      Hash: 574c5ec5a29720e2fd83ca343945155d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.TanksCoop
+    className: RandomColor
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -736,16 +1298,34 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: d8a26b54bc961ead1819bd52514d0856
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: ZoneHandler
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dacb2403b4b0f8bc255ff52b5530a345
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Chat
+    className: ChatAuthenticator
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -784,6 +1364,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 6fd5eccdfce21d8c659fa7ef5323a5ee
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Basic
+    className: CanvasUI
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -802,6 +1388,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: a26824363c9977070b6a6cc4481f7a95
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.RigidbodyPhysics
+    className: AddForce
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -814,10 +1406,40 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 908f32afcae4448f67589f81153c807d
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: DistanceInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: cc0e2eb0e7289b6e34390f604f416990
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.TanksCoop
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b69e7c60f4f78bc0502cb809c92b7e3d
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Tanks
+    className: Tank
+  - hash:
+      serializedVersion: 2
+      Hash: ca137b5e0631d351e2586359b4b211a5
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PlayerScore
+  - hash:
+      serializedVersion: 2
+      Hash: a26824363c9977070b6a6cc4481f7a95
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.RigidbodyBenchmark
+    className: AddForce
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -826,10 +1448,28 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c8917013771b47181225661e21bca685
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkTransformReliable
+  - hash:
+      serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 339265d3a885a4cafbb68889ad6730ce
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Chat
+    className: LoginUI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: PhysicsSimulator
   - hash:
       serializedVersion: 2
       Hash: 1acffdc47de1ca014dae3d384c3d1086
@@ -844,10 +1484,46 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
+      Hash: cc0e2eb0e7289b6e34390f604f416990
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
+      Hash: e3ea2b4d78656ac50f648ee19557219e
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 608baadfc08f190ac5a45982f826f37b
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkRoomPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: f1b340816b3f43036b5b64df6ad2fdde
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: Reward
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2806ce3264677a1e953d3210e6d13f25
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PhysicsCollision
+  - hash:
+      serializedVersion: 2
+      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Chat
+    className: ChatNetworkManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -862,10 +1538,28 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: 52d6491eef86ea48d7ca58c4a82a0189
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Basic
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.Basic
+    className: BasicNetManager
+  - hash:
+      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: c8917013771b47181225661e21bca685
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: NetworkRigidbodyReliable
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -874,10 +1568,22 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: f1b340816b3f43036b5b64df6ad2fdde
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: Reward
+  - hash:
+      serializedVersion: 2
       Hash: 28873fe9170abb2910f2c4b88a93bb0f
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PhysicsSimulator
   - hash:
       serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
@@ -904,6 +1610,24 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 27045774fab6b5a933b34c6149177788
+    assemblyName: Mirror.Components
+    namespaceName: Mirror
+    className: SpatialHashingInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: 608baadfc08f190ac5a45982f826f37b
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: NetworkRoomPlayerExt
+  - hash:
+      serializedVersion: 2
+      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.TanksCoop
+    className: AuthorityNetworkManager
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -914,728 +1638,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f1b340816b3f43036b5b64df6ad2fdde
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: Reward
-  - hash:
-      serializedVersion: 2
-      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Basic
-    className: BasicNetManager
-  - hash:
-      serializedVersion: 2
-      Hash: 783c1c5ed36f81d82dd79d19bed9a079
-    assemblyName: Mirror.Authenticators
-    namespaceName: Mirror.Authenticators
-    className: DeviceAuthenticator
-  - hash:
-      serializedVersion: 2
-      Hash: d3fb92a9d882afdea7488ecfd9d31427
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: GUIConsole
-  - hash:
-      serializedVersion: 2
-      Hash: a26824363c9977070b6a6cc4481f7a95
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.RigidbodyBenchmark
-    className: AddForce
-  - hash:
-      serializedVersion: 2
-      Hash: 9665227150a6764d8eb87d0b25ab1dc7
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.CCU
-    className: CCUNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Chat
-    className: ChatNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: MatchInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: c69f1ad8812aaf23627e5f2c1ccbfe54
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Benchmark
-    className: BenchmarkNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: cca2b5d3d368e7391a2baed1177f7fb4
-    assemblyName: Mirror.Transports
-    namespaceName: Mirror.SimpleWeb
-    className: SimpleWebTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 242f93742e308a9b29919bf8fd7005fd
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: AdditiveLevelsNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 86d75f506a1c31777790b23cfcf70ef7
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.TanksCoop
-    className: TankController
-  - hash:
-      serializedVersion: 2
-      Hash: 12f7770b00fdf9605899a0f4ab5e88aa
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.BenchmarkIdle
-    className: Npc
-  - hash:
-      serializedVersion: 2
-      Hash: 574c5ec5a29720e2fd83ca343945155d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror
-    namespaceName: Mirror
-    className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 608baadfc08f190ac5a45982f826f37b
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomPlayerExt
-  - hash:
-      serializedVersion: 2
-      Hash: 100c84b54bbb7d10ad6dabb8cf7b95ec
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.SnapshotInterpolationDemo
-    className: ClientCube
-  - hash:
-      serializedVersion: 2
-      Hash: 90d1e90b9c70a5d92fcf1a53c8d8c331
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkRoomManager
-  - hash:
-      serializedVersion: 2
-      Hash: cc0e2eb0e7289b6e34390f604f416990
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerCamera
-  - hash:
-      serializedVersion: 2
-      Hash: a26824363c9977070b6a6cc4481f7a95
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.RigidbodyPhysics
-    className: AddForce
-  - hash:
-      serializedVersion: 2
-      Hash: 5857aaa413ec4675d570ef7c3373f36f
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CanvasController
-  - hash:
-      serializedVersion: 2
-      Hash: cc0e2eb0e7289b6e34390f604f416990
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: PlayerCamera
-  - hash:
-      serializedVersion: 2
-      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.TanksCoop
-    className: AuthorityNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 574c5ec5a29720e2fd83ca343945155d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveScenes
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: e969578f48f0e1558eb419ad48ce1b41
-    assemblyName: Mirror.Transports
-    namespaceName: Mirror
-    className: MultiplexTransport
-  - hash:
-      serializedVersion: 2
-      Hash: f1b340816b3f43036b5b64df6ad2fdde
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: Reward
-  - hash:
-      serializedVersion: 2
-      Hash: 369a85b75f2a31e87c6a866540001e00
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: DistanceInterestManagementCustomRange
-  - hash:
-      serializedVersion: 2
-      Hash: c69f1ad8812aaf23627e5f2c1ccbfe54
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.RigidbodyBenchmark
-    className: RigidbodyBenchmarkNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 574c5ec5a29720e2fd83ca343945155d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.TanksCoop
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: cc0e2eb0e7289b6e34390f604f416990
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveScenes
-    className: PlayerCamera
-  - hash:
-      serializedVersion: 2
-      Hash: cc0e2eb0e7289b6e34390f604f416990
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.TanksCoop
-    className: PlayerCamera
-  - hash:
-      serializedVersion: 2
-      Hash: e3ea2b4d78656ac50f648ee19557219e
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkTransformChild
-  - hash:
-      serializedVersion: 2
-      Hash: f0abda00702ec4d4e7e066b93185e9ce
-    assemblyName: Mirror.Components
-    namespaceName: Mirror.Experimental
-    className: NetworkRigidbody
-  - hash:
-      serializedVersion: 2
-      Hash: 88500e4da050a9f6f3fff24244b3caf7
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.CCU
-    className: Monster
-  - hash:
-      serializedVersion: 2
-      Hash: c1942b6957d8cb621e6a25768c192a9c
-    assemblyName: Mirror.Authenticators
-    namespaceName: Mirror.Authenticators
-    className: TimeoutAuthenticator
-  - hash:
-      serializedVersion: 2
-      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: bf2f8a12f47c75c9009280d3f75985ab
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveScenes
-    className: AdditiveNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: b43143bf378e8ba0e5e013c13636eddd
-    assemblyName: Mirror
-    namespaceName: Mirror
-    className: NetworkManagerHUD
-  - hash:
-      serializedVersion: 2
-      Hash: a0dad473e105cd3db7f8276de8037aff
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Basic
-    className: PlayerUI
-  - hash:
-      serializedVersion: 2
-      Hash: 52d6491eef86ea48d7ca58c4a82a0189
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Basic
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 90d1e90b9c70a5d92fcf1a53c8d8c331
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkLobbyManager
-  - hash:
-      serializedVersion: 2
-      Hash: 6cc1aca32fab13c4e42a2fb8aa51b378
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Benchmark
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 54dbf1354d684373dbb6cc66ececf7d3
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.BenchmarkIdle
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 8dc576deb25ec0a2dd0ca78daf1868d8
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkTeam
-  - hash:
-      serializedVersion: 2
-      Hash: c6e6a3c06e73350da744db9db9b1fd1e
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.SyncDir
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: e3ea2b4d78656ac50f648ee19557219e
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkTransformUnreliable
-  - hash:
-      serializedVersion: 2
-      Hash: 728fce6cb4678ae45601f8cfe5fc1383
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: HistoryCollider
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd5eccdfce21d8c659fa7ef5323a5ee
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Basic
-    className: CanvasUI
-  - hash:
-      serializedVersion: 2
-      Hash: f373fb48a79d8e0bbfc5b442f3e8d766
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: FadeInOut
-  - hash:
-      serializedVersion: 2
-      Hash: 51b6a1e9c8ccbe5171e4a8bc5e62bcaa
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Common
-    className: FPS
-  - hash:
-      serializedVersion: 2
-      Hash: 7bf9ec7ffcef77dd034dd2103e3fd2d5
-    assemblyName: Mirror.Transports
-    namespaceName: Mirror
-    className: LatencySimulation
-  - hash:
-      serializedVersion: 2
-      Hash: a0afebd540f47ef586c4f6c224b84df5
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: PlayerGUI
-  - hash:
-      serializedVersion: 2
-      Hash: bec57f26c4d645408cb6eb54d0763152
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Pong
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: PhysicsSimulator
-  - hash:
-      serializedVersion: 2
-      Hash: 608baadfc08f190ac5a45982f826f37b
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkLobbyPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 1a947b446458d24ee2a0412df4efe285
-    assemblyName: Mirror.Components
-    namespaceName: Mirror.Discovery
-    className: NetworkDiscovery
-  - hash:
-      serializedVersion: 2
-      Hash: 0837e28de3e6ad8243a15527da09fbce
-    assemblyName: Mirror.Transports
-    namespaceName: Mirror
-    className: TelepathyTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 2806ce3264677a1e953d3210e6d13f25
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsCollision
-  - hash:
-      serializedVersion: 2
-      Hash: 496d4521be261724ff725dced5f0971f
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomManagerExt
-  - hash:
-      serializedVersion: 2
-      Hash: e28130a3859395d868f69fe426be02fe
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.RigidbodyBenchmark
-    className: AutoForce
-  - hash:
-      serializedVersion: 2
-      Hash: a3f5d60a2b7f432be13336aa8aa0f6c1
-    assemblyName: Mirror.Authenticators
-    namespaceName: Mirror.Authenticators
-    className: BasicAuthenticator
-  - hash:
-      serializedVersion: 2
-      Hash: bec57f26c4d645408cb6eb54d0763152
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Pong
-    className: Ball
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsSimulator
-  - hash:
-      serializedVersion: 2
-      Hash: 8a9d84707d0e9f000178bfc5b76186fd
-    assemblyName: Mirror.Components
-    namespaceName: Mirror.Discovery
-    className: NetworkDiscoveryHUD
-  - hash:
-      serializedVersion: 2
-      Hash: d8a26b54bc961ead1819bd52514d0856
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveScenes
-    className: ZoneHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 73c53cb9818cc03b749c583705c5434f
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 5fb2284f20e1827e5e10f2b8d59fdef1
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveScenes
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 27045774fab6b5a933b34c6149177788
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: SpatialHashingInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 608baadfc08f190ac5a45982f826f37b
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkRoomPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 574c5ec5a29720e2fd83ca343945155d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: e5a7e656cdd39f13f860d7aee06d2c75
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: MultiSceneNetManager
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: SceneInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: d33e70ff715924df9accda97d1ab9554
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Pong
-    className: NetworkManagerPong
-  - hash:
-      serializedVersion: 2
-      Hash: ad142c40a053e0020e56b750253902aa
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Chat
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 1f51b961d1effef2b284f5d2cd0b6a30
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveScenes
-    className: ShootingTankBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 339265d3a885a4cafbb68889ad6730ce
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Chat
-    className: LoginUI
-  - hash:
-      serializedVersion: 2
-      Hash: e0c99c74c1f64a4b2ddcbd98ac7a6521
-    assemblyName: Mirror
-    namespaceName: Mirror
-    className: NetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: e6186cd60f658e64fb1bcb33efdb08e9
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.SnapshotInterpolationDemo
-    className: ServerCube
-  - hash:
-      serializedVersion: 2
-      Hash: 33c4b3bb9f8a7c570f32dcd58ed55f77
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: RemoteStatistics
-  - hash:
-      serializedVersion: 2
-      Hash: bd8b19d2dd203c0367afb3b2c0533501
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 16c5d8ca9c6145352a10c873a7c9e2de
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerScore
-  - hash:
-      serializedVersion: 2
-      Hash: e3ea2b4d78656ac50f648ee19557219e
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkRigidbodyUnreliable
-  - hash:
-      serializedVersion: 2
-      Hash: fd0b671878695ad150b80c1ab1f4a482
-    assemblyName: Mirror.Transports
-    namespaceName: kcp2k
-    className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: ca137b5e0631d351e2586359b4b211a5
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerScore
-  - hash:
-      serializedVersion: 2
-      Hash: d336d783425aae33bbfb3da784e94b7c
-    assemblyName: Mirror
-    namespaceName: Mirror
-    className: NetworkIdentity
-  - hash:
-      serializedVersion: 2
-      Hash: 9fb6d3412d6c58086796e5250fe2005d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.TanksCoop
-    className: Projectile
-  - hash:
-      serializedVersion: 2
-      Hash: 231a9ca3f7c81ade6a60d81cc33be7ea
-    assemblyName: Mirror.Components
-    namespaceName: Mirror.Experimental
-    className: NetworkRigidbody2D
-  - hash:
-      serializedVersion: 2
-      Hash: c8917013771b47181225661e21bca685
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkRigidbodyReliable
-  - hash:
-      serializedVersion: 2
-      Hash: de676bbd2f4a8c7dfff229e6bbe113d1
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.LagCompensationDemo
-    className: ServerCube
-  - hash:
-      serializedVersion: 2
-      Hash: e3ea2b4d78656ac50f648ee19557219e
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkRigidbodyUnreliable2D
-  - hash:
-      serializedVersion: 2
-      Hash: fc69c45d623995f4f745d93664a1f76c
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Chat
-    className: ChatUI
-  - hash:
-      serializedVersion: 2
-      Hash: 3ed613102f397f77f628ea52097ee0d8
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.CCU
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: cc0e2eb0e7289b6e34390f604f416990
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 652fa2a3a15e44c3b4361057c0cfc732
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.LagCompensationDemo
-    className: ClientCube
-  - hash:
-      serializedVersion: 2
-      Hash: 3a5b6a86cbad13a29a6c896fa8fe6785
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CellGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 4cd3db69fa6e3492c608fd31bfa23345
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchController
-  - hash:
-      serializedVersion: 2
-      Hash: 88500e4da050a9f6f3fff24244b3caf7
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Benchmark
-    className: MonsterMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 3945c861b572f6e9540b74b1c8bfe17c
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkPingDisplay
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: LookAtMainCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: TeamInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 14830464a04bad855c5013f088f4a0d5
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.TanksCoop
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: bbd3ce290ed3ab81f25f5de11464498e
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: RoomGUI
-  - hash:
-      serializedVersion: 2
-      Hash: cc0e2eb0e7289b6e34390f604f416990
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkMatch
-  - hash:
-      serializedVersion: 2
-      Hash: 5dc4992ccb4f10b65b4d424e9c0a52c1
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkStatistics
-  - hash:
-      serializedVersion: 2
-      Hash: b69e7c60f4f78bc0502cb809c92b7e3d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Tanks
-    className: Tank
-  - hash:
-      serializedVersion: 2
-      Hash: 3d7febf30df7d1828378d34e2e46f661
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.AdditiveLevels
-    className: Portal
-  - hash:
-      serializedVersion: 2
-      Hash: 574c5ec5a29720e2fd83ca343945155d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: dacb2403b4b0f8bc255ff52b5530a345
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Chat
-    className: ChatAuthenticator
-  - hash:
-      serializedVersion: 2
-      Hash: c8917013771b47181225661e21bca685
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkRigidbodyReliable2D
-  - hash:
-      serializedVersion: 2
-      Hash: e3ea2b4d78656ac50f648ee19557219e
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 9665227150a6764d8eb87d0b25ab1dc7
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.BenchmarkIdle
-    className: BenchmarkIdleNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 09074999aeface3ff2e2a076aab7d12b
-    assemblyName: Mirror.Components
-    namespaceName: Mirror.Experimental
-    className: NetworkLerpRigidbody
-  - hash:
-      serializedVersion: 2
-      Hash: c952b1f0d5e62e27da8627b17555a910
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 908f32afcae4448f67589f81153c807d
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: DistanceInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: c8917013771b47181225661e21bca685
-    assemblyName: Mirror.Components
-    namespaceName: Mirror
-    className: NetworkTransformReliable
-  - hash:
-      serializedVersion: 2
-      Hash: 9fb6d3412d6c58086796e5250fe2005d
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Tanks
-    className: Projectile
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.Tanks
-    className: FaceCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 9ff04a94178434a208d86305e6314f56
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerSetup
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainLevel.unity
   playerPath: "C:/Users/alper/OneDrive/Masa\xFCst\xFC/Unity/Multiplayer-FPS-Game/Multiplayer
-    FPS Game/Builds/Build02/Multiplayer FPS Game.exe"
+    FPS Game/Builds/Build01/Multiplayer FPS Game.exe"
