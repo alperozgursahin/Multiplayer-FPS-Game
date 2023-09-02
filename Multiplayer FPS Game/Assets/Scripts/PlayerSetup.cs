@@ -1,12 +1,17 @@
 using Mirror;
 using UnityEngine;
-using UnityEngine.Networking;
 
 public class PlayerSetup : NetworkBehaviour
 {
 
     [SerializeField]
     Behaviour[] componentsToDisable;
+
+    [SerializeField]
+    string remoteLayerName = "RemotePlayer";
+
+    [SerializeField]
+    Behaviour audioListener;
 
     Camera sceneCamera;
 
@@ -16,10 +21,8 @@ public class PlayerSetup : NetworkBehaviour
         // active on the player that we control
         if (!isLocalPlayer)
         {
-            for (int i = 0; i < componentsToDisable.Length; i++)
-            {
-                componentsToDisable[i].enabled = false;
-            }
+            DisableComponents();
+            AssingRemoteLayer();
         }
         else
         {
@@ -29,6 +32,27 @@ public class PlayerSetup : NetworkBehaviour
             {
                 sceneCamera.gameObject.SetActive(false);
             }
+            audioListener.gameObject.SetActive(false);
+        }
+
+        RegisterPlayer();
+    }
+
+    void RegisterPlayer()
+    {
+        string _ID = "Player " +  GetComponent<NetworkIdentity>().netId;
+        transform.name = _ID;
+    }
+    void AssingRemoteLayer()
+    {
+        gameObject.layer = LayerMask.NameToLayer(remoteLayerName);
+    }
+
+    void DisableComponents()
+    {
+        for (int i = 0; i < componentsToDisable.Length; i++)
+        {
+            componentsToDisable[i].enabled = false;
         }
     }
 

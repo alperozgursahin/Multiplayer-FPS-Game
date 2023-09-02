@@ -11,15 +11,16 @@ GameObject:
   - component: {fileID: 1425638569390936669}
   - component: {fileID: 5834933448406921494}
   - component: {fileID: 3233313570254438451}
-  - component: {fileID: 3231560172158145558}
-  - component: {fileID: 4003324659598623371}
   - component: {fileID: -3690964305975500218}
-  - component: {fileID: -7461043671437702416}
   - component: {fileID: -8931490188325092652}
   - component: {fileID: -5468066547655788701}
-  m_Layer: 0
+  - component: {fileID: 3231560172158145558}
+  - component: {fileID: 4003324659598623371}
+  - component: {fileID: -7461043671437702416}
+  - component: {fileID: 5450428598291971255}
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,36 +90,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &3231560172158145558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3380105368170050978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 330a5aa8825ef384ba9e746c9acd1c50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 8205092870049279802}
---- !u!114 &4003324659598623371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3380105368170050978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f38e2cd6cf82c744583c3d855f1da4d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  lookSensitivity: 10
-  thrusterForce: 1250
-  jointSpring: 15
-  jointMaxForce: 40
 --- !u!114 &-3690964305975500218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,26 +107,6 @@ MonoBehaviour:
   serverOnly: 0
   visible: 0
   hasSpawned: 0
---- !u!114 &-7461043671437702416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3380105368170050978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be02125fb1caf074daf0a10f95aca4e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0
-  componentsToDisable:
-  - {fileID: 4003324659598623371}
-  - {fileID: 3231560172158145558}
-  - {fileID: 8205092870049279802}
-  - {fileID: 8393159305147313900}
 --- !u!114 &-8931490188325092652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,6 +243,84 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &3231560172158145558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3380105368170050978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330a5aa8825ef384ba9e746c9acd1c50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 8205092870049279802}
+  cameraRotationLimit: 85
+--- !u!114 &4003324659598623371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3380105368170050978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38e2cd6cf82c744583c3d855f1da4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  lookSensitivity: 10
+  thrusterForce: 1250
+  jointSpring: 15
+  jointMaxForce: 40
+--- !u!114 &-7461043671437702416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3380105368170050978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be02125fb1caf074daf0a10f95aca4e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  componentsToDisable:
+  - {fileID: 4003324659598623371}
+  - {fileID: 3231560172158145558}
+  - {fileID: 8205092870049279802}
+  - {fileID: 8393159305147313900}
+  - {fileID: 5450428598291971255}
+  - {fileID: 3898168675556442634, guid: 224cf0faa34cc5742a27da8343ee29fa, type: 3}
+  remoteLayerName: RemotePlayer
+  audioListener: {fileID: 3898168675556442634, guid: 224cf0faa34cc5742a27da8343ee29fa, type: 3}
+--- !u!114 &5450428598291971255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3380105368170050978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70000ab59804bef479c90abec3b6db70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  weapon:
+    name: Glock 19
+    damage: 10
+    range: 200
+  cam: {fileID: 8205092870049279802}
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3856765705601906568
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +333,7 @@ GameObject:
   - component: {fileID: 5211313612185043883}
   - component: {fileID: 2759493313747109710}
   - component: {fileID: 4543805815620793537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +438,7 @@ GameObject:
   - component: {fileID: 1016011126832642914}
   - component: {fileID: 2938312531662452952}
   - component: {fileID: 4814097343032803350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4867688905654858070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +577,7 @@ GameObject:
   - component: {fileID: 8205092870049279802}
   - component: {fileID: 8393159305147313900}
   - component: {fileID: 10638379060342273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9188699758463529543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +737,7 @@ GameObject:
   - component: {fileID: 7987122821825769070}
   - component: {fileID: 8945912645331044321}
   - component: {fileID: 1839821582123999994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -812,7 +841,7 @@ GameObject:
   - component: {fileID: 5118432343883951157}
   - component: {fileID: 3226579818501902899}
   - component: {fileID: 8418643433242193458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}

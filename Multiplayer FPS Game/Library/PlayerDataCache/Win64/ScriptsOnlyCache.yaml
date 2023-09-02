@@ -4,8 +4,11 @@ ScriptsOnlyBuild:
     - PlayerController
     - PlayerMotor
     - PlayerSetup
+    - PlayerShoot
     Mirror.Components.dll:
     - Mirror.NetworkTransformUnreliable
+    Mirror.Editor.dll:
+    - Mirror.NetworkBehaviourInspector
     Mirror.Transports.dll:
     - kcp2k.KcpTransport
     Mirror.dll:
@@ -20,6 +23,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   serializedClasses:
+    Assembly-CSharp:
+    - PlayerWeapon
     Mirror:
     - Mirror.SnapshotInterpolationSettings
   methodsToPreserve: []
@@ -62,22 +67,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3510}
     - Class: 114
-      Script: {instanceID: 4564}
+      Script: {instanceID: 4566}
     - Class: 114
-      Script: {instanceID: 4568}
+      Script: {instanceID: 4570}
     - Class: 114
-      Script: {instanceID: 4690}
+      Script: {instanceID: 4692}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 5088}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 5614}
     - Class: 114
-      Script: {instanceID: 6156}
+      Script: {instanceID: 6158}
     - Class: 114
-      Script: {instanceID: 7644}
+      Script: {instanceID: 7646}
+    - Class: 114
+      Script: {instanceID: 8444}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 153
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -752,7 +761,7 @@ ScriptsOnlyBuild:
     className: NetworkIdentity
   - hash:
       serializedVersion: 2
-      Hash: 0d3d981cc087e777bf3fa0d759b22533
+      Hash: ec0126a2811f91b112e5d7e0f2a12c50
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMotor
@@ -1028,7 +1037,7 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9ff04a94178434a208d86305e6314f56
+      Hash: e904453b1c90132a5fdfb40c09acc43d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerSetup
@@ -1478,7 +1487,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 356bfa9dc65b3af51775dd65dd3372ad
+      Hash: e34d7f3ffa6451ec25152a314838be89
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -1638,6 +1647,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 972d588b0fe05cab790b5195d0cf7ed6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerShoot
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainLevel.unity

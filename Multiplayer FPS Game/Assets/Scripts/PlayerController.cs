@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         float _cameraRotationX =_xRot * lookSensitivity;
 
         // Apply rotation 
-        motor.RotateCamera(_cameraRotationX);
+        motor.RotateCamera(_cameraRotationX );
 
         // Calculate the thruster force based on player input
 
