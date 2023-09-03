@@ -20,7 +20,7 @@ public class PlayerShoot : NetworkBehaviour
             Debug.Log("No Camera Referenced!");
             this.enabled = false;
         }
-            
+
     }
 
     void Update()
@@ -46,12 +46,12 @@ public class PlayerShoot : NetworkBehaviour
     }
 
     [Command]
-    void CmdPlayerShot (string _playerID, int damage)
+    void CmdPlayerShot(string _playerID, int damage)
     {
         Debug.Log(_playerID + " has been shot.");
-        
+
         Player _player = GameManager.GetPlayer(_playerID);
-        _player.TakeDamage(damage);
+        _player.RpcTakeDamage(damage);
     }
 
 }

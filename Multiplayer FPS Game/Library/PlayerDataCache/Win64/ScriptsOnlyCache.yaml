@@ -24,6 +24,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   serializedClasses:
     Assembly-CSharp:
+    - MatchSettings
     - PlayerWeapon
     Mirror:
     - Mirror.SnapshotInterpolationSettings
@@ -63,29 +64,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 3510}
+      Script: {instanceID: 3306}
     - Class: 114
-      Script: {instanceID: 4566}
+      Script: {instanceID: 3512}
     - Class: 114
-      Script: {instanceID: 4570}
+      Script: {instanceID: 4568}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 5088}
+      Script: {instanceID: 4694}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 6158}
+      Script: {instanceID: 5616}
     - Class: 114
-      Script: {instanceID: 6186}
+      Script: {instanceID: 6160}
     - Class: 114
-      Script: {instanceID: 7648}
+      Script: {instanceID: 6188}
     - Class: 114
-      Script: {instanceID: 23932}
+      Script: {instanceID: 7650}
     - Class: 114
-      Script: {instanceID: 23938}
+      Script: {instanceID: 7720}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -295,6 +296,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.Benchmark
     className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 2be05591d63136e35f2dbd1eee704eb1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Player
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1503,6 +1510,12 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
+      Hash: 92ae6cd7dc6912c0ccc94e34db6bf805
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: cc0e2eb0e7289b6e34390f604f416990
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.NetworkRoom
@@ -1657,18 +1670,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: e8afb84095cad1162cb3da7b368a45c1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Player
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainLevel.unity

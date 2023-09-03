@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerMotor))]
-[RequireComponent (typeof(ConfigurableJoint))]
+[RequireComponent(typeof(ConfigurableJoint))]
 public class PlayerController : MonoBehaviour
 {
 
@@ -59,10 +59,10 @@ public class PlayerController : MonoBehaviour
         // Calculate Camera Rotation as a 3D Vector
         float _xRot = Input.GetAxisRaw("Mouse Y");
 
-        float _cameraRotationX =_xRot * lookSensitivity;
+        float _cameraRotationX = _xRot * lookSensitivity;
 
         // Apply rotation 
-        motor.RotateCamera(_cameraRotationX );
+        motor.RotateCamera(_cameraRotationX);
 
         // Calculate the thruster force based on player input
 
@@ -72,7 +72,8 @@ public class PlayerController : MonoBehaviour
         {
             _thrusterForce = Vector3.up * thrusterForce;
             SetJointSettings(0f);
-        } else
+        }
+        else
         {
             SetJointSettings(jointSpring);
         }
@@ -81,10 +82,12 @@ public class PlayerController : MonoBehaviour
         motor.ApplyThruster(_thrusterForce);
     }
 
-    private void SetJointSettings(float _jointSpring )
+    private void SetJointSettings(float _jointSpring)
     {
-        joint.yDrive = new JointDrive { 
+        joint.yDrive = new JointDrive
+        {
             positionSpring = _jointSpring,
-            maximumForce = jointMaxForce };
+            maximumForce = jointMaxForce
+        };
     }
 }

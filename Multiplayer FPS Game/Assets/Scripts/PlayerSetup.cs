@@ -1,7 +1,7 @@
 using Mirror;
 using UnityEngine;
 
-[RequireComponent(typeof(Player))]  
+[RequireComponent(typeof(Player))]
 public class PlayerSetup : NetworkBehaviour
 {
 
@@ -35,7 +35,9 @@ public class PlayerSetup : NetworkBehaviour
             }
             audioListener.gameObject.SetActive(false);
         }
-    
+
+        GetComponent<Player>().Setup();
+
     }
 
     public override void OnStartClient()
@@ -72,5 +74,5 @@ public class PlayerSetup : NetworkBehaviour
 
         GameManager.UnRegisterPlayer(transform.name);
     }
-    
+
 }
