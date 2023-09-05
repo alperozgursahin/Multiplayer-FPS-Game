@@ -149,7 +149,8 @@
         141,
         142,
         143,
-        144
+        144,
+        145
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -263,17 +264,29 @@
       "DebugActionIndex": 9
     },
     {
+      "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/sharedassets0.assets.resS",
+      "DisplayName": "Copying sharedassets0.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS"
+      ],
+      "Outputs": [
+        "Builds/Build01/Multiplayer FPS Game_Data/sharedassets0.assets.resS"
+      ],
+      "DebugActionIndex": 10
+    },
+    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 16747,
+      "PayloadLength": 16810,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -291,6 +304,7 @@
         "Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets",
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS",
         "C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -437,12 +451,12 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        10
+        11
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/boot.config",
@@ -455,9 +469,9 @@
         "Builds/Build01/Multiplayer FPS Game_Data/boot.config"
       ],
       "ToBuildDependencies": [
-        11
+        12
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AIModule.dll",
@@ -469,7 +483,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ARModule.dll",
@@ -481,7 +495,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -493,7 +507,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -505,7 +519,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -517,7 +531,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -529,7 +543,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AudioModule.dll",
@@ -541,7 +555,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ClothModule.dll",
@@ -553,7 +567,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -565,7 +579,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -577,7 +591,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -589,7 +603,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.CoreModule.dll",
@@ -601,7 +615,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -613,7 +627,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -625,7 +639,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -637,7 +651,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.GIModule.dll",
@@ -649,7 +663,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -661,7 +675,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.GridModule.dll",
@@ -673,7 +687,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -685,7 +699,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -697,7 +711,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -709,7 +723,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -721,7 +735,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.InputModule.dll",
@@ -733,7 +747,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -745,7 +759,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -757,7 +771,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -769,7 +783,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -781,7 +795,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -793,7 +807,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -805,7 +819,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -817,7 +831,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -829,7 +843,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -841,7 +855,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -853,7 +867,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -865,7 +879,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -877,7 +891,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -889,7 +903,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -901,7 +915,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -913,7 +927,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -925,7 +939,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -937,7 +951,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TLSModule.dll",
@@ -949,7 +963,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -961,7 +975,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -973,7 +987,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -985,7 +999,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -997,7 +1011,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1009,7 +1023,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1021,7 +1035,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1033,7 +1047,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UIModule.dll",
@@ -1045,7 +1059,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1057,7 +1071,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1069,7 +1083,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1081,7 +1095,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1093,7 +1107,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1105,7 +1119,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1117,7 +1131,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1129,7 +1143,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1141,7 +1155,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1153,7 +1167,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1165,7 +1179,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1177,7 +1191,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1189,7 +1203,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VRModule.dll",
@@ -1201,7 +1215,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1213,7 +1227,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1225,7 +1239,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1237,7 +1251,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.WindModule.dll",
@@ -1249,7 +1263,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.XRModule.dll",
@@ -1261,7 +1275,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.dll",
@@ -1273,7 +1287,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Assembly-CSharp.dll",
@@ -1285,7 +1299,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.dll",
@@ -1297,7 +1311,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1309,7 +1323,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UI.dll",
@@ -1321,7 +1335,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Transports.dll",
@@ -1333,7 +1347,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Transports.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Components.dll",
@@ -1345,7 +1359,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Components.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1357,7 +1371,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Telepathy.dll",
@@ -1369,7 +1383,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Telepathy.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.Timeline.dll",
@@ -1381,7 +1395,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/SimpleWebTransport.dll",
@@ -1393,7 +1407,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/SimpleWebTransport.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Authenticators.dll",
@@ -1405,7 +1419,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Authenticators.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Examples.dll",
@@ -1417,7 +1431,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Mirror.Examples.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.TextMeshPro.dll",
@@ -1429,7 +1443,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1441,7 +1455,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/kcp2k.dll",
@@ -1453,7 +1467,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/kcp2k.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1465,7 +1479,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/netstandard.dll",
@@ -1477,7 +1491,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/Mono.Security.dll",
@@ -1489,7 +1503,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1501,7 +1515,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Configuration.dll",
@@ -1513,7 +1527,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Core.dll",
@@ -1525,7 +1539,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1537,7 +1551,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Data.dll",
@@ -1549,7 +1563,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Drawing.dll",
@@ -1561,7 +1575,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.EnterpriseServices.dll",
@@ -1573,7 +1587,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1585,7 +1599,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.IO.Compression.dll",
@@ -1597,7 +1611,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Net.Http.dll",
@@ -1609,7 +1623,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Numerics.dll",
@@ -1621,7 +1635,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Runtime.Serialization.dll",
@@ -1633,7 +1647,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Security.dll",
@@ -1645,7 +1659,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1657,7 +1671,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Transactions.dll",
@@ -1669,7 +1683,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Xml.Linq.dll",
@@ -1681,7 +1695,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Xml.dll",
@@ -1693,7 +1707,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/System.dll",
@@ -1705,7 +1719,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Managed/mscorlib.dll",
@@ -1717,20 +1731,20 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16919,
+      "PayloadOffset": 16982,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "DefaultCompany\nMultiplayer FPS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/app.info",
@@ -1743,9 +1757,9 @@
         "Builds/Build01/Multiplayer FPS Game_Data/app.info"
       ],
       "ToBuildDependencies": [
-        118
+        119
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game_Data/Resources/unity default resources",
@@ -1757,7 +1771,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Builds/Build01/Multiplayer FPS Game.exe",
@@ -1769,7 +1783,7 @@
       "Outputs": [
         "Builds/Build01/Multiplayer FPS Game.exe"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1781,7 +1795,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1793,7 +1807,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1805,7 +1819,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1817,7 +1831,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1829,7 +1843,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1841,7 +1855,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1853,7 +1867,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1865,7 +1879,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1877,7 +1891,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1889,7 +1903,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1901,7 +1915,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1913,7 +1927,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1925,7 +1939,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1937,7 +1951,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1949,7 +1963,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1961,7 +1975,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -1973,7 +1987,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -1985,7 +1999,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/config",
@@ -1997,7 +2011,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Builds/Build01/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2009,7 +2023,7 @@
       "Outputs": [
         "Builds/Build01/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Builds/Build01/UnityCrashHandler64.exe",
@@ -2021,7 +2035,7 @@
       "Outputs": [
         "Builds/Build01/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Builds/Build01/UnityPlayer.dll",
@@ -2033,7 +2047,7 @@
       "Outputs": [
         "Builds/Build01/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "Player",
@@ -2050,7 +2064,7 @@
         7,
         8,
         9,
-        12,
+        10,
         13,
         14,
         15,
@@ -2156,7 +2170,7 @@
         115,
         116,
         117,
-        119,
+        118,
         120,
         121,
         122,
@@ -2180,10 +2194,11 @@
         140,
         141,
         142,
-        143
+        143,
+        144
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 144
+      "DebugActionIndex": 145
     }
   ],
   "FileSignatures": [
@@ -2384,7 +2399,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 144
+          "Player": 145
         }
 ,  "DefaultNodes": [
     0
