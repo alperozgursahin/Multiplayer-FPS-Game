@@ -15,7 +15,7 @@ C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Ga
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49689
+56160
 Successfully changed project path to: C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game
 C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/alper/OneDrive/Masaüstü/Unity/Multiplayer-FPS-Game/Multiplayer FPS Ga
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27896] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 677282790 [EditorId] 677282790 [Version] 1048832 [Id] WindowsEditor(7,ALPER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23348] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 457176412 [EditorId] 457176412 [Version] 1048832 [Id] WindowsEditor(7,ALPER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27896] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 677282790 [EditorId] 677282790 [Version] 1048832 [Id] WindowsEditor(7,ALPER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23348] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 457176412 [EditorId] 457176412 [Version] 1048832 [Id] WindowsEditor(7,ALPER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 17.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010098 seconds.
-- Loaded All Assemblies, in  0.521 seconds
+Registered in 0.007420 seconds.
+- Loaded All Assemblies, in  0.427 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.378 seconds
-Domain Reload Profiling: 896ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.362 seconds
+Domain Reload Profiling: 787ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (42ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (135ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (115ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (198ms)
-				TypeCache.ScanAssembly (183ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (379ms)
+	FinalizeReload (363ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (297ms)
+		SetupLoadedEditorAssemblies (280ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\alper\OneDrive\Masaüstü\Unity\Multiplayer-FPS-Game\Multiplayer FPS Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\alper\OneDrive\Masaüstü\Unity\Multiplayer-FPS-Game\Multiplayer FPS Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.065 seconds
-Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.970 seconds
+Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -132,47 +132,47 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.810 seconds
-Domain Reload Profiling: 1871ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1716ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (739ms)
-		LoadAssemblies (402ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (389ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (424ms)
-			TypeCache.Refresh (390ms)
-				TypeCache.ScanAssembly (374ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (811ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (342ms)
+				TypeCache.ScanAssembly (329ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (750ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (575ms)
+		SetupLoadedEditorAssemblies (542ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (384ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 11.93 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3445 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (59.7 KB). Loaded Objects now: 3904.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 5.336900 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.108000 ms MarkObjects: 4.804300 ms  DeleteObjects: 0.157400 ms)
+Unloading 37 unused Assets / (59.4 KB). Loaded Objects now: 3905.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 4.265900 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.152700 ms MarkObjects: 3.626500 ms  DeleteObjects: 0.173400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,9 +190,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 33883.027530 seconds.
-  path: Assets/Scripts/PlayerWeapon.cs
-  artifactKey: Guid(a68384f0765c20748b8d2a4c6e802bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerWeapon.cs using Guid(a68384f0765c20748b8d2a4c6e802bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc7136d9c9120497d41d6d7b1327ea1') in 0.003857 seconds
+  Time since last request: 209480.325691 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756cb7af2e3f66fc29a406cc1fd22dce') in 0.225351 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.551338 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b197a92ea0c1da6389c0e3162cec76') in 0.038167 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 16.069178 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de430d8da93af4f7a02d84487484486') in 0.046167 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 8.712927 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(16bbba277897a7544ac5d58a663d59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7277431c5796f24e7cbf668a447acec9') in 0.043537 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
