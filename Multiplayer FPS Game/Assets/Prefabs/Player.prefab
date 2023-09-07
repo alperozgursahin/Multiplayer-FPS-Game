@@ -301,6 +301,9 @@ MonoBehaviour:
   - {fileID: 3243194089988787773}
   remoteLayerName: RemotePlayer
   audioListener: {fileID: 3898168675556442634, guid: 224cf0faa34cc5742a27da8343ee29fa, type: 3}
+  dontDrawLayerName: DontDraw
+  playerGraphics: {fileID: 7084263586432291158}
+  playerUIPrefab: {fileID: 9197473893032413281, guid: d214af5879dd25d4bab8b8b1ff4123df, type: 3}
 --- !u!114 &5450428598291971255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,7 +685,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
