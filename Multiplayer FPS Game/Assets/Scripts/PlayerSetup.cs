@@ -45,8 +45,8 @@ public class PlayerSetup : NetworkBehaviour
                 sceneCamera.gameObject.SetActive(false);
             }
             audioListener.gameObject.SetActive(false);
-            
-            SetLayerRecursively (playerGraphics, LayerMask.NameToLayer(dontDrawLayerName));
+
+            SetLayerRecursively(playerGraphics, LayerMask.NameToLayer(dontDrawLayerName));
 
             // Create PlayerUI
             playerUIInstance = Instantiate(playerUIPrefab);

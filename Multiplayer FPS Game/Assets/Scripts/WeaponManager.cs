@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
 
@@ -16,6 +14,8 @@ public class WeaponManager : NetworkBehaviour
 
     private PlayerWeapon currentWeapon;
 
+    private WeaponGraphics currentGraphics;
+
 
     private void Start()
     {
@@ -26,18 +26,28 @@ public class WeaponManager : NetworkBehaviour
     {
         currentWeapon = _weapon;
 
-        GameObject _weaponIns = (GameObject) Instantiate(_weapon.graphics, weaponHolder.position, weaponHolder.rotation);
+        GameObject _weaponIns = (GameObject)Instantiate(_weapon.graphics, weaponHolder.position, weaponHolder.rotation);
         _weaponIns.transform.SetParent(weaponHolder);
+
+        currentGraphics = _weaponIns.GetComponent<WeaponGraphics>();
+
+        if (currentGraphics == null)
+            Debug.LogError("There is no WeaponGraphics Component!" + _weaponIns.name);
 
         if (isLocalPlayer)
         {
-            _weaponIns.layer = LayerMask.NameToLayer(weaponLayerName);
+            Util.SetLayerRecursively(_weaponIns, LayerMask.NameToLayer(weaponLayerName));
         }
     }
 
     public PlayerWeapon GetCurrentWeapon()
     {
         return currentWeapon;
+    }
+
+    public WeaponGraphics GetCurrentGraphics()
+    {
+        return currentGraphics;
     }
 
 

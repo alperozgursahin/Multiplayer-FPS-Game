@@ -328,7 +328,6 @@ MonoBehaviour:
   - {fileID: 3231560172158145558}
   - {fileID: 8205092870049279802}
   - {fileID: 8393159305147313900}
-  - {fileID: 5450428598291971255}
   - {fileID: 3898168675556442634, guid: 224cf0faa34cc5742a27da8343ee29fa, type: 3}
   - {fileID: 3243194089988787773}
   - {fileID: 6266157844652833653}
@@ -415,9 +414,9 @@ MonoBehaviour:
   weaponHolder: {fileID: 8221291576795561357}
   primaryWeapon:
     name: Blaster
-    damage: 5
+    damage: 20
     range: 100
-    fireRate: 0
+    fireRate: 10
     graphics: {fileID: 6061120975229685058, guid: 85415365b5009d648b853016be2dd849, type: 3}
 --- !u!1 &6175760762933617397
 GameObject:
