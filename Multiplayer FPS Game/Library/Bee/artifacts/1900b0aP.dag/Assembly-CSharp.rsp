@@ -336,6 +336,7 @@
 "Assets/Scripts/PlayerSetup.cs"
 "Assets/Scripts/PlayerShoot.cs"
 "Assets/Scripts/PlayerWeapon.cs"
+"Assets/Scripts/WeaponManager.cs"
 -langversion:9.0
 
 /deterministic

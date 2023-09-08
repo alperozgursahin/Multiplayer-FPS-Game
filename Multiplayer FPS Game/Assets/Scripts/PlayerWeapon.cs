@@ -6,6 +6,12 @@ public class PlayerWeapon
     public string name = "Glock 19";
 
     public int damage = 10;
+
     public float range = 200f;
 
+    public float fireRate = 0f;
+
+    public GameObject graphics;
+
+    
 }
