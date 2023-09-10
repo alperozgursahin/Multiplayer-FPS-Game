@@ -306,6 +306,11 @@ MonoBehaviour:
   speed: 5
   lookSensitivity: 10
   thrusterForce: 1250
+  thrusterFuelBurnSpeed: 0.5
+  thrusterFuelRegenSpeed: 0.5
+  environmentMask:
+    serializedVersion: 2
+    m_Bits: 1024
   jointSpring: 15
   jointMaxForce: 40
 --- !u!114 &-7461043671437702416
@@ -493,7 +498,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 247
+    m_Bits: 1271
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

@@ -2,6 +2,7 @@ using Mirror;
 using UnityEngine;
 
 [RequireComponent(typeof(Player))]
+[RequireComponent (typeof(PlayerController))]
 public class PlayerSetup : NetworkBehaviour
 {
 
@@ -51,6 +52,12 @@ public class PlayerSetup : NetworkBehaviour
             // Create PlayerUI
             playerUIInstance = Instantiate(playerUIPrefab);
             playerUIInstance.name = playerUIPrefab.name;
+
+            // Configure PlayerUI
+            PlayerUIVariables ui = playerUIInstance.GetComponent<PlayerUIVariables>();
+            if (ui == null)
+                Debug.LogError("No PlayerUI Component on PlayerUI Prefab");
+            ui.SetController(GetComponent<PlayerController>());
 
         }
 
