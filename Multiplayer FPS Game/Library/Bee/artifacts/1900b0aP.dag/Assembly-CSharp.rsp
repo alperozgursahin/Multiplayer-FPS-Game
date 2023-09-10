@@ -335,6 +335,7 @@
 "Assets/Scripts/PlayerMotor.cs"
 "Assets/Scripts/PlayerSetup.cs"
 "Assets/Scripts/PlayerShoot.cs"
+"Assets/Scripts/PlayerUIVariables.cs"
 "Assets/Scripts/PlayerWeapon.cs"
 "Assets/Scripts/Util.cs"
 "Assets/Scripts/WeaponGraphics.cs"

@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - PlayerMotor
     - PlayerSetup
     - PlayerShoot
+    - PlayerUIVariables
     - WeaponGraphics
     - WeaponManager
     Mirror.Components.dll:
@@ -92,39 +93,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 1822}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 2476}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 3510}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 4564}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 4688}
+      Script: {instanceID: 3516}
     - Class: 114
-      Script: {instanceID: 5084}
+      Script: {instanceID: 4162}
     - Class: 114
-      Script: {instanceID: 6152}
+      Script: {instanceID: 4574}
     - Class: 114
-      Script: {instanceID: 6462}
+      Script: {instanceID: 4578}
     - Class: 114
-      Script: {instanceID: 8436}
+      Script: {instanceID: 4700}
     - Class: 114
-      Script: {instanceID: 8440}
+      Script: {instanceID: 4720}
     - Class: 114
-      Script: {instanceID: 8444}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 8448}
+      Script: {instanceID: 5624}
     - Class: 114
-      Script: {instanceID: 8456}
+      Script: {instanceID: 6168}
     - Class: 114
-      Script: {instanceID: 8464}
+      Script: {instanceID: 6196}
     - Class: 114
-      Script: {instanceID: 8468}
+      Script: {instanceID: 6480}
     - Class: 114
-      Script: {instanceID: 24256}
+      Script: {instanceID: 7660}
+    - Class: 114
+      Script: {instanceID: 7730}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -264,6 +267,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 42f0f36a4cb05529a88f7bcb91312cb6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WeaponManager
+  - hash:
+      serializedVersion: 2
       Hash: 0837e28de3e6ad8243a15527da09fbce
     assemblyName: Mirror.Transports
     namespaceName: Mirror
@@ -346,6 +355,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.Benchmark
     className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: ea985b06529195d87495f7e4bb3b085b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Player
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -702,6 +717,12 @@ ScriptsOnlyBuild:
     className: GUIConsole
   - hash:
       serializedVersion: 2
+      Hash: bf4c023f2bbe70c7f14ca074f684a8b9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerUIVariables
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -816,6 +837,12 @@ ScriptsOnlyBuild:
     className: NetworkIdentity
   - hash:
       serializedVersion: 2
+      Hash: ec0126a2811f91b112e5d7e0f2a12c50
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMotor
+  - hash:
+      serializedVersion: 2
       Hash: 33c4b3bb9f8a7c570f32dcd58ed55f77
     assemblyName: Mirror.Components
     namespaceName: Mirror
@@ -856,6 +883,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components
     namespaceName: Mirror.Experimental
     className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: f7741881bfe35fced9728cdba08e8f51
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WeaponGraphics
   - hash:
       serializedVersion: 2
       Hash: c952b1f0d5e62e27da8627b17555a910
@@ -1086,6 +1119,12 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 3a6e37391718b28c1e3526b1463916c6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerSetup
+  - hash:
+      serializedVersion: 2
       Hash: 3ed613102f397f77f628ea52097ee0d8
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.CCU
@@ -1198,6 +1237,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.MultipleMatch
     className: MatchNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5333fecfb7deefef472525a230fbe7fa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerShoot
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1530,6 +1575,18 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 8f542593ae60513116eaa01aa87f58fe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 2856236c35b0c5e79b2ead2d732068f0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: cc0e2eb0e7289b6e34390f604f416990
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.NetworkRoom
@@ -1684,54 +1741,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 5333fecfb7deefef472525a230fbe7fa
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerShoot
-  - hash:
-      serializedVersion: 2
-      Hash: 42f0f36a4cb05529a88f7bcb91312cb6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WeaponManager
-  - hash:
-      serializedVersion: 2
-      Hash: ec0126a2811f91b112e5d7e0f2a12c50
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMotor
-  - hash:
-      serializedVersion: 2
-      Hash: e34d7f3ffa6451ec25152a314838be89
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 92ae6cd7dc6912c0ccc94e34db6bf805
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: a6b61948ea42291bccfa5ce2b4d5b38e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerSetup
-  - hash:
-      serializedVersion: 2
-      Hash: 2be05591d63136e35f2dbd1eee704eb1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: f7741881bfe35fced9728cdba08e8f51
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WeaponGraphics
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainLevel.unity

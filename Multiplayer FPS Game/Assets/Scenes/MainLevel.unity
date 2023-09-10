@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   matchSettings:
     respawnTime: 3
+  sceneCamera: {fileID: 909628211}
 --- !u!4 &88901044
 Transform:
   m_ObjectHideFlags: 0
@@ -484,6 +485,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2111429139}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &909628211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4404095288653073361, guid: 224cf0faa34cc5742a27da8343ee29fa, type: 3}
+  m_PrefabInstance: {fileID: 4222063751194993870}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &938458235
 GameObject:
   m_ObjectHideFlags: 0
