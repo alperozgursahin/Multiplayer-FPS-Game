@@ -2,7 +2,7 @@ using Mirror;
 using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(PlayerSetup))]  
+[RequireComponent(typeof(PlayerSetup))]
 public class Player : NetworkBehaviour
 {
     [SyncVar]
@@ -33,29 +33,56 @@ public class Player : NetworkBehaviour
     [SerializeField]
     private GameObject spawnEffect;
 
-    public void Setup()
-    {
-        wasEnabled = new bool[disableOnDeath.Length];
+    private bool firstSetup = true;
 
-        for (int i = 0; i < wasEnabled.Length; i++)
+    public void SetupPlayer()
+    {
+        if (isLocalPlayer) 
         {
-            wasEnabled[i] = disableOnDeath[i].enabled;
+            // Switch Cameras
+            GameManager.instance.SetSceneCameraActive(false);
+            GetComponent<PlayerSetup>().playerUIInstance.SetActive(true);
+
         }
 
-        SetDefaults();
+        CmdBroadCastNewPlayerSetup();
     }
 
-    void Update()
+    /*void Update()
     {
         if (!isLocalPlayer)
         {
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.K)) 
+        if (Input.GetKeyDown(KeyCode.K))
         {
             RpcTakeDamage(9999);
         }
+    }*/
+
+    [Command]
+    private void CmdBroadCastNewPlayerSetup()
+    {
+        RpcSetupPlayerOnAllClients();
+    }
+
+    [ClientRpc]
+    private void RpcSetupPlayerOnAllClients()
+    {
+        if (firstSetup)
+        {
+            wasEnabled = new bool[disableOnDeath.Length];
+
+            for (int i = 0; i < wasEnabled.Length; i++)
+            {
+                wasEnabled[i] = disableOnDeath[i].enabled;
+            }
+
+            firstSetup = false;
+        }
+
+        SetDefaults();
     }
 
     [ClientRpc]
@@ -67,7 +94,7 @@ public class Player : NetworkBehaviour
 
         Debug.Log(transform.name + " now has " + currentHealth + " health.");
 
-        if (currentHealth < 0)
+        if (currentHealth <= 0)
         {
             Die();
         }
@@ -97,7 +124,7 @@ public class Player : NetworkBehaviour
         }
 
         // Spawn Death Effect
-        GameObject _deathEffect = (GameObject) Instantiate(deathEffect,transform.position,Quaternion.identity);
+        GameObject _deathEffect = (GameObject)Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(_deathEffect, 3f);
 
 
@@ -121,7 +148,10 @@ public class Player : NetworkBehaviour
         transform.position = _spawnPoint.position;
         transform.rotation = _spawnPoint.rotation;
 
-        SetDefaults();
+        yield return new WaitForSeconds(0.1f);
+
+        SetupPlayer();
+
         Debug.Log(transform.name + " respawned.");
     }
 
@@ -150,16 +180,9 @@ public class Player : NetworkBehaviour
             _col.enabled = true;
         }
 
-        // Switch Cameras
-        if (isLocalPlayer)
-        {
-            GameManager.instance.SetSceneCameraActive(false);
-            GetComponent<PlayerSetup>().playerUIInstance.SetActive(true);
-        }
-
         // Create spawn effect
-        GameObject _spawnEffect = (GameObject) Instantiate(spawnEffect, transform.position, Quaternion.LookRotation(Vector3.up));
-        Destroy(_spawnEffect,5f);
+        GameObject _spawnEffect = (GameObject)Instantiate(spawnEffect, transform.position, Quaternion.LookRotation(Vector3.up));
+        Destroy(_spawnEffect, 5f);
 
     }
 

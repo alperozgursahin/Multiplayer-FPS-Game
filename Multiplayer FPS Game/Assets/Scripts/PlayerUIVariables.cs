@@ -14,7 +14,7 @@ public class PlayerUIVariables : MonoBehaviour
     }
     void SetFuelAmount(float _amount)
     {
-        thrusterFuelFill.localScale = new Vector3 (1f, _amount, 1f);
+        thrusterFuelFill.localScale = new Vector3(1f, _amount, 1f);
     }
 
     void Update()

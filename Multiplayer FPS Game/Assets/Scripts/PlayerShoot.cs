@@ -26,6 +26,7 @@ public class PlayerShoot : NetworkBehaviour
     void Update()
     {
         currentWeapon = weaponManager.GetCurrentWeapon();
+        if (currentWeapon == null) return;
         if (currentWeapon.fireRate <= 0f)
         {
             if (Input.GetButtonDown("Fire1"))
@@ -102,6 +103,7 @@ public class PlayerShoot : NetworkBehaviour
         }
 
     }
+
     [Command]
     void CmdPlayerShot(string _playerID, int _damage)
     {

@@ -427,7 +427,7 @@ MonoBehaviour:
     name: Blaster
     damage: 20
     range: 100
-    fireRate: 10
+    fireRate: 5
     graphics: {fileID: 6061120975229685058, guid: 85415365b5009d648b853016be2dd849, type: 3}
 --- !u!1 &6175760762933617397
 GameObject:

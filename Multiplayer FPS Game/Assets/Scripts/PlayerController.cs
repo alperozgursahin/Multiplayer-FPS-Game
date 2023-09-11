@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent (typeof(Animator))]
+[RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(PlayerMotor))]
 [RequireComponent(typeof(ConfigurableJoint))]
 public class PlayerController : MonoBehaviour
@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     private PlayerMotor motor;
     private ConfigurableJoint joint;
 
-    public float GetThrusterFuelAmount () { return thrusterFuelAmount; }
+    public float GetThrusterFuelAmount() { return thrusterFuelAmount; }
 
     void Start()
     {
@@ -57,7 +57,8 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.down, out _hit, 100f, environmentMask))
         {
             joint.targetPosition = new Vector3(0f, -_hit.point.y, 0f);
-        } else
+        }
+        else
         {
             joint.targetPosition = new Vector3(0f, 0f, 0f);
         }
@@ -108,7 +109,7 @@ public class PlayerController : MonoBehaviour
                 _thrusterForce = Vector3.up * thrusterForce;
                 SetJointSettings(0f);
             }
-           
+
         }
         else
         {

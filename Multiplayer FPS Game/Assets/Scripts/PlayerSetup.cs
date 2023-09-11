@@ -2,7 +2,7 @@ using Mirror;
 using UnityEngine;
 
 [RequireComponent(typeof(Player))]
-[RequireComponent (typeof(PlayerController))]
+[RequireComponent(typeof(PlayerController))]
 public class PlayerSetup : NetworkBehaviour
 {
 
@@ -53,9 +53,11 @@ public class PlayerSetup : NetworkBehaviour
                 Debug.LogError("No PlayerUI Component on PlayerUI Prefab");
             ui.SetController(GetComponent<PlayerController>());
 
+            GetComponent<Player>().SetupPlayer();
+
         }
 
-        GetComponent<Player>().Setup();
+        
 
     }
 
@@ -97,7 +99,10 @@ public class PlayerSetup : NetworkBehaviour
     {
         Destroy(playerUIInstance);
 
-        GameManager.instance.SetSceneCameraActive(true);
+        if (isLocalPlayer)
+        {
+            GameManager.instance.SetSceneCameraActive(true);
+        }
 
         GameManager.UnRegisterPlayer(transform.name);
     }
